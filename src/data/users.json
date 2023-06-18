@@ -1,0 +1,142 @@
+[
+  {
+    "avatar": "https://example.com/avatars/image1.jpg",
+    "name": "Juan Dela Cruz",
+    "job": "Web Developer",
+    "email": "juan.delacruz@example.com",
+    "rate": 4.5
+  },
+  {
+    "avatar": "https://example.com/avatars/image2.jpg",
+    "name": "Maria Santos",
+    "job": "Flutter Developer",
+    "email": "maria.santos@example.com",
+    "rate": 4.8
+  },
+  {
+    "avatar": "https://example.com/avatars/image3.jpg",
+    "name": "Jose Rizal",
+    "job": "Django Developer",
+    "email": "jose.rizal@example.com",
+    "rate": 4.2
+  },
+  {
+    "avatar": "https://example.com/avatars/image4.jpg",
+    "name": "Isabella Garcia",
+    "job": "PHP Developer",
+    "email": "isabella.garcia@example.com",
+    "rate": 4.9
+  },
+  {
+    "avatar": "https://example.com/avatars/image5.jpg",
+    "name": "Gabriel Reyes",
+    "job": "Node.js Developer",
+    "email": "gabriel.reyes@example.com",
+    "rate": 4.6
+  },
+  {
+    "avatar": "https://example.com/avatars/image6.jpg",
+    "name": "Sophia Rodriguez",
+    "job": "React Developer",
+    "email": "sophia.rodriguez@example.com",
+    "rate": 4.4
+  },
+  {
+    "avatar": "https://example.com/avatars/image7.jpg",
+    "name": "Antonio Luna",
+    "job": "Android Developer",
+    "email": "antonio.luna@example.com",
+    "rate": 4.7
+  },
+  {
+    "avatar": "https://example.com/avatars/image8.jpg",
+    "name": "Miguel Lopez",
+    "job": "iOS Developer",
+    "email": "miguel.lopez@example.com",
+    "rate": 4.3
+  },
+  {
+    "avatar": "https://example.com/avatars/image9.jpg",
+    "name": "Alicia Dimagiba",
+    "job": "Front-end Developer",
+    "email": "alicia.dimagiba@example.com",
+    "rate": 4.0
+  },
+  {
+    "avatar": "https://example.com/avatars/image10.jpg",
+    "name": "Ricardo Ocampo",
+    "job": "Back-end Developer",
+    "email": "ricardo.ocampo@example.com",
+    "rate": 4.1
+  },
+  {
+    "avatar": "https://example.com/avatars/image11.jpg",
+    "name": "Camila Cruz",
+    "job": "Full Stack Developer",
+    "email": "camila.cruz@example.com",
+    "rate": 5.0
+  },
+  {
+    "avatar": "https://example.com/avatars/image12.jpg",
+    "name": "Luis Alvarez",
+    "job": "Java Developer",
+    "email": "luis.alvarez@example.com",
+    "rate": 4.3
+  },
+  {
+    "avatar": "https://example.com/avatars/image13.jpg",
+    "name": "Christina Ramos",
+    "job": "Ruby Developer",
+    "email": "christina.ramos@example.com",
+    "rate": 4.5
+  },
+  {
+    "avatar": "https://example.com/avatars/image14.jpg",
+    "name": "Carlos Villanueva",
+    "job": "Python Developer",
+    "email": "carlos.villanueva@example.com",
+    "rate": 4.6
+  },
+  {
+    "avatar": "https://example.com/avatars/image15.jpg",
+    "name": "Daniella San Miguel",
+    "job": "C# Developer",
+    "email": "daniella.sanmiguel@example.com",
+    "rate": 4.8
+  },
+  {
+    "avatar": "https://example.com/avatars/image16.jpg",
+    "name": "Marco Antonio",
+    "job": "Database Administrator",
+    "email": "marco.antonio@example.com",
+    "rate": 4.7
+  },
+  {
+    "avatar": "https://example.com/avatars/image17.jpg",
+    "name": "Patricia Mendoza",
+    "job": "DevOps Engineer",
+    "email": "patricia.mendoza@example.com",
+    "rate": 4.9
+  },
+  {
+    "avatar": "https://example.com/avatars/image18.jpg",
+    "name": "Rafael Enriquez",
+    "job": "Data Engineer",
+    "email": "rafael.enriquez@example.com",
+    "rate": 4.4
+  },
+  {
+    "avatar": "https://example.com/avatars/image19.jpg",
+    "name": "Elena Pascual",
+    "job": "Front-end Developer",
+    "email": "elena.pascual@example.com",
+    "rate": 4.2
+  },
+  {
+    "avatar": "https://example.com/avatars/image20.jpg",
+    "name": "Francisco Javier",
+    "job": "UX/UI Designer",
+    "email": "francisco.javier@example.com",
+    "rate": 4.5
+  }
+]
