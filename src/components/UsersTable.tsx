@@ -15,41 +15,55 @@ import {
   IconTrash,
   IconDots,
 } from "@tabler/icons-react";
+import { Link } from "react-router-dom";
 
 interface UsersStackProps {
   data: {
-    avatar: string;
-    name: string;
-    job: string;
-    email: string;
-    rate: number;
+    login: string;
+    id: number;
+    node_id: string;
+    avatar_url: string;
+    gravatar_id: string;
+    url: string;
+    html_url: string;
+    followers_url: string;
+    following_url: string;
+    gists_url: string;
+    starred_url: string;
+    subscriptions_url: string;
+    organizations_url: string;
+    repos_url: string;
+    events_url: string;
+    received_events_url: string;
+    type: string;
+    site_admin: boolean;
+    score: number;
   }[];
 }
 
 function UsersTable({ data }: UsersStackProps) {
   const rows = data.map((item) => (
-    <tr key={item.name}>
+    <tr key={item.id}>
       <td>
         <Group spacing="sm">
-          <Avatar size={40} src={item.avatar} radius={40} />
+          <Avatar size={40} src={item.avatar_url} radius={40} />
           <div>
-            <Text fz="sm" fw={500}>
-              {item.name}
-            </Text>
-            <Text c="dimmed" fz="xs">
-              {item.job}
-            </Text>
+            <Link to={`user/${item.login}`}>
+              <Text fz="sm" fw={500}>
+                {item.login}
+              </Text>
+            </Link>
           </div>
         </Group>
       </td>
       <td>
-        <Text fz="sm">{item.email}</Text>
+        <Text fz="sm">{item.login}</Text>
         <Text fz="xs" c="dimmed">
           Email
         </Text>
       </td>
       <td>
-        <Text fz="sm">${item.rate.toFixed(1)} / hr</Text>
+        <Text fz="sm">${item.score.toFixed(1)} / hr</Text>
         <Text fz="xs" c="dimmed">
           Rate
         </Text>
