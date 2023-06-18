@@ -8,15 +8,16 @@ import {
   rem,
 } from "@mantine/core";
 import {
-  IconBellRinging,
-  IconFingerprint,
-  IconKey,
+  IconLayoutDashboard,
   IconSettings,
-  Icon2fa,
-  IconDatabaseImport,
-  IconReceipt2,
   IconSwitchHorizontal,
   IconLogout,
+  IconUsers,
+  IconServerCog,
+  IconCode,
+  IconSpeakerphone,
+  IconChartBar,
+  IconAdjustments,
 } from "@tabler/icons-react";
 import { MantineLogo } from "@mantine/ds";
 
@@ -100,13 +101,14 @@ const useStyles = createStyles((theme) => ({
 }));
 
 const data = [
-  { link: "", label: "Notifications", icon: IconBellRinging },
-  { link: "", label: "Billing", icon: IconReceipt2 },
-  { link: "", label: "Security", icon: IconFingerprint },
-  { link: "", label: "SSH Keys", icon: IconKey },
-  { link: "", label: "Databases", icon: IconDatabaseImport },
-  { link: "", label: "Authentication", icon: Icon2fa },
-  { link: "", label: "Other Settings", icon: IconSettings },
+  { link: "", label: "Dashboard", icon: IconLayoutDashboard },
+  { link: "", label: "Developers", icon: IconUsers },
+  { link: "", label: "Repositories", icon: IconServerCog },
+  { link: "", label: "Languages & Technologies", icon: IconCode },
+  { link: "", label: "Community & Events", icon: IconSpeakerphone },
+  { link: "", label: "Insights", icon: IconChartBar },
+  { link: "", label: "Resources & Learning", icon: IconAdjustments },
+  { link: "", label: "Help & Support", icon: IconSettings },
 ];
 
 function Dashboard() {
