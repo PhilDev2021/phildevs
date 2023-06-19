@@ -2,22 +2,22 @@
 import React from "react";
 import Dashboard from "./Dashboard";
 import UsersTable from "./UsersTable";
+import Map from "./Map";
 import { useUsersContext } from "../contexts/UsersContext";
 import { Grid } from "@mantine/core";
 
 const AppLayout = () => {
   const { state } = useUsersContext();
   return (
-    <div>
-      <Grid>
-        <Grid.Col span="auto">
-          <Dashboard />
-        </Grid.Col>
-        <Grid.Col span={9}>
-          <UsersTable data={state.users} />
-        </Grid.Col>
-      </Grid>
-    </div>
+    <Grid>
+      <Grid.Col xs={3}>
+        <Dashboard />
+      </Grid.Col>
+      <Grid.Col xs={9}>
+        {/* <UsersTable data={state.users} /> */}
+        <Map />
+      </Grid.Col>
+    </Grid>
   );
 };
 
